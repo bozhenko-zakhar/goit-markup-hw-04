@@ -149,6 +149,7 @@ button {
 .hero {
 	max-width: 1440px;
 	padding: 188px 0;
+	
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -158,6 +159,7 @@ button {
 .hero-heading {
 	max-width: 496px;
 	margin: 0 auto 48px;
+
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
@@ -186,3 +188,46 @@ button {
 .hero-button:focus {
 	background-color: #404bbf;
 }
+
+/* ↑ Hero section styles ↑
+————————————————————————————
+  ↓ Benefits section styles ↓ */
+
+.benefits {}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.benefits-list {
+	display: flex;
+	gap: 24px;
+}
+
+.benefits-item {}
+
+.benefits-icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 112px;
+	background-color: #F4F4FD;
+	border-radius: 4px;
+	border: 1px solid #8E8F99;
+	margin-bottom: 8px;
+}
+
+.benefits-subtitle {
+	margin-bottom: 8px;	
+}
+
+.benefits-desc {}
