@@ -398,3 +398,54 @@ button {
 .portfolio-item:hover .overlay {
 	transform: translateY(0%);
 }
+
+/* ↑ Portfolio section styles ↑
+————————————————————————————
+  ↓ Footer styles ↓ */
+
+.footer-page {
+	padding: 100px 0;
+	background-color: #2e2f42;
+}
+
+.footer-page .container {
+	display: flex;
+	align-items: baseline;
+}
+
+.footer-web-info {
+	width: 264px;
+	margin-right: 120px
+}
+
+.footer-page .logo {
+	display: inline-block;
+	margin-bottom: 16px;
+}
+
+.footer-page .logo-part {
+	color: #F4F4FD;
+}
+
+.footer-desc {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #F4F4FD;
+}
+
+.footer-social-info {
+
+}
+
+.social-info-heading {
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	margin-bottom: 16px;
+}
+
+.social-info-list {
+	display: flex;
+	gap: 16px;
+}
