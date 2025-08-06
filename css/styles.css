@@ -121,7 +121,7 @@ button {
 }
 
 .header-nav-item:first-child .header-nav-link {
-	color: #4D5AE5;
+	color: #404BBF;
 	position: relative;
 }
 
@@ -139,5 +139,5 @@ button {
 	border-radius: 2px;
 	height: 4px;
 	width: 48px;
-	background-color: #404bbf;
+	background-color: #404BBF;
 }
