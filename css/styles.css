@@ -228,10 +228,18 @@ button {
 }
 
 .benefits-subtitle {
-	margin-bottom: 8px;	
+	margin-bottom: 8px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2E2F42;
 }
 
-.benefits-desc {}
+.benefits-desc {	
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
 
 /* ↑ Benefits section styles ↑
 ————————————————————————————
@@ -268,10 +276,17 @@ button {
 
 .employee-name {
 	margin-bottom: 8px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2E2F42;
 }
 
 .employee-position {
 	margin-bottom: 8px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 .team-social-list {
